@@ -6,7 +6,6 @@ grep '.*' /etc/passwd | cut -d: -f1 | sort
 ```
 
 ```bash
-xartd0@xartd0-Strix-GL504GW-GL504GW:~$ grep '.*' /etc/passwd | cut -d: -f1 | sort
 _apt
 avahi
 backup
@@ -57,7 +56,6 @@ uucp
 uuidd
 whoopsie
 www-data
-xartd0
 ```
 
 # Задача 2
@@ -93,10 +91,10 @@ echo "| ${text} |"
 echo "+${line}+"
 ```
 ```bash
-xartd0@xartd0-Strix-GL504GW-GL504GW:~/confmirea$ ./banner.sh "xartd0"
-+--------+
-| xartd0 |
-+--------+
+
++----------+
+| nightsaj |
++----------+
 ```
 
 # Задача 4
@@ -111,7 +109,7 @@ id=$(grep -o -E '\b[a-zA-Z]*\b' "$file" | sort -u)
 
 ```
 ```bash
-xartd0@xartd0-Strix-GL504GW-GL504GW:~/confmirea$ grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' hello.c | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
+nightsaj@nightsaj-Strix-GL504GW-GL504GW:~/confmirea$ grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' hello.c | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
 h
 hello
 main
@@ -135,8 +133,8 @@ sudo cp "$file" /usr/local/bin/
 
 Например, пусть программа называется reg:
 ```bash
-xartd0@xartd0-Strix-GL504GW-GL504GW:~/confmirea$ ./reg.sh banner.sh
-xartd0@xartd0-Strix-GL504GW-GL504GW:~/confmirea$ ls /usr/local/bin
+nightsaj@nightsaj-Strix-GL504GW-GL504GW:~/confmirea$ ./reg.sh banner.sh
+nightsaj@nightsaj-Strix-GL504GW-GL504GW:~/confmirea$ ls /usr/local/bin
 banner.sh  ngrok
 ```
 
@@ -170,7 +168,7 @@ done
 ```
 
 ```bash
-xartd0@xartd0-System-Product-Name:~/Desktop/confupr$ ./6.sh 
+nightsaj@nightsaj-System-Product-Name:~/Desktop/confupr$ ./6.sh 
 Файл ./test.js содержит комментарий в первой строке.
 Файл ./test.c содержит комментарий в первой строке.
 Файл ./test.py не содержит комментарий в первой строке.
@@ -205,7 +203,7 @@ rm "$temp_file"
 ```
 
 ```bash
-xartd0@xartd0-System-Product-Name:~/Desktop/confupr$ ./6.sh .
+nightsaj@nightsaj-System-Product-Name:~/Desktop/confupr$ ./6.sh .
 Найдены дубликаты файлов:
 553844d44cf63d240f17403dd8b6ff5074efcfd3d783fcd9ebd60e522124d4a6  ./test.js
 553844d44cf63d240f17403dd8b6ff5074efcfd3d783fcd9ebd60e522124d4a6  ./test (Copy).js
@@ -244,7 +242,7 @@ echo "Архив создан: $archive_name"
 
 Написать программу, которая находит все файлы в данном каталоге с расширением, указанным в качестве аргумента и архивирует все эти файлы в архив tar.
 ```bash
-xartd0@xartd0-Strix-GL504GW-GL504GW:~/confmirea$ ./tar.sh "test" "py"
+nightsaj@nightsaj-Strix-GL504GW-GL504GW:~/confmirea$ ./tar.sh "test" "py"
 tar: -: file name read contains nul character
 test/1.py
 test/2.py
@@ -273,7 +271,7 @@ echo "Замена завершена. Результат сохранен в ф
 
 ```
 ```bash
-xartd0@xartd0-System-Product-Name:~/Desktop/confupr$ ./6.sh test.c test_new.c
+nightsaj@nightsaj-System-Product-Name:~/Desktop/confupr$ ./6.sh test.c test_new.c
 Замена завершена. Результат сохранен в файл test_new.c.
 ```
 Изначальный файл
@@ -311,7 +309,7 @@ directory=$1
 find "$directory" -type f -empty -print
 ```
 ```bash
-xartd0@xartd0-Strix-GL504GW-GL504GW:~/confmirea$ ./10.sh test
+nightsaj@nightsaj-Strix-GL504GW-GL504GW:~/confmirea$ ./10.sh test
 test/3.js
 test/1.py
 test/1ff
