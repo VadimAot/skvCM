@@ -237,3 +237,4 @@ python main.py
 
 ## 5. Результаты прогона тестов:
 
+![img1](media/img2.jpg)
