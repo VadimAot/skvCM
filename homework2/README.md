@@ -89,3 +89,4 @@ homework2/
 
 ## 4. Примеры использования
 
+![img1](media/output.jpg)
