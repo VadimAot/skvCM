@@ -90,3 +90,9 @@ homework2/
 ## 4. Примеры использования
 
 ![img1](media/output.png)
+
+## 5. Результаты прогона тестов:
+
+![image](https://github.com/user-attachments/assets/33e54dc1-4d35-44ed-a27a-c0a6f676d5da)
+
+---
